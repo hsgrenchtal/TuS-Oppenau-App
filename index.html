@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101113"><meta name="description" content="TuS Oppenau Handball und HSG Renchtal – Aktuelles, Spiele, Trainingszeiten und Ansprechpartner.">
+<link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="style.css"><title>TuS Oppenau Handball</title>
+</head>
+<body>
+<header class="topbar"><div class="crest"><img src="assets/hsg-renchtal-logo.jpeg" alt="TuS Oppenau und HSG Renchtal"></div><div><div class="brand">TuS Oppenau</div><div class="subbrand">HANDBALL · EIN TEAM · EIN ZIEL</div></div><button class="bell" aria-label="Mitteilungen" onclick="showTab('mitteilungen')">♧</button></header>
+<main>
+<section class="hero-home"><div class="hero-shade"></div><div class="hero-copy"><div class="eyebrow">WILLKOMMEN BEIM HANDBALL</div><h1>Ein Team.<br><em>Ein Ziel.</em></h1><p>Dein Verein. Deine Mannschaft. Dein Renchtal.</p><div class="hero-pills"><span>📍 Oppenau</span><span>🤾 HSG Renchtal & Aktive</span></div></div></section>
+<nav class="tabs" aria-label="Hauptnavigation"><button class="active" data-tab="start" onclick="showTab('start')">Start</button><button data-tab="news" onclick="showTab('news')">Aktuelles</button><button data-tab="spiele" onclick="showTab('spiele')">Spiele</button><button data-tab="teams" onclick="showTab('teams')">Teams</button><button data-tab="training" onclick="showTab('training')">Training</button><button data-tab="mehr" onclick="showTab('mehr')">Mehr</button></nav>
+<div id="content" aria-live="polite"></div>
+</main>
+<footer><strong>TuS Oppenau Handball</strong><br><span>Jugendhandball unter HSG Renchtal</span><p><a href="https://www.handballoppenau.de/" target="_blank" rel="noopener">Offizielle Vereinswebsite ↗</a></p><small>Prototyp – Inhalte und Spielplandaten noch nicht live angebunden.</small></footer>
+<script src="app.js"></script>
+</body></html>
